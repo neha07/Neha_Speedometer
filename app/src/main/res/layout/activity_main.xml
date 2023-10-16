@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgpic"
+    android:layout_marginTop="80dp"
+    android:layout_marginBottom="80dp"
+    >
+
+    <TextView
+        android:id="@+id/currentSpeedId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_gravity="center"
+        android:text=" - - "
+        android:textStyle="bold"
+        android:textColor="#24C10C"
+        android:textSize="50sp"
+        ></TextView>
+
+        <TextView
+            android:id="@+id/tenToThirtyLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:text="From 10km/hr to 30km/hr"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            ></TextView>
+    
+    <TextView
+        android:id="@+id/tenToThirtyId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text=" - - "
+        android:textColor="#24C10C"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/thirtyToTenLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="200dp"
+        android:text="30km/hour to 10km/hour"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/thirtyToTenId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text=" - - "
+        android:textColor="#24C10C"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Km/Hr"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        ></TextView>
+
+
+</LinearLayout>
+</LinearLayout>
